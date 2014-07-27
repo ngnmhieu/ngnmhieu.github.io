@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html, body { height: 100%; }
@@ -55,12 +56,12 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-.site {
-  font-size: 115%;
+.main {
+  position: relative;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  margin-left: 250px;
   line-height: 1.5em;
+  font-size: 1.4em;
 }
 
 .header a {
@@ -157,4 +158,12 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+#site-wrap {
+  position: relative;
+}
+
+.border {
+  border: 1px solid green;
 }
