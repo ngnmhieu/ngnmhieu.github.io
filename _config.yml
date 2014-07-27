@@ -1,3 +1,4 @@
 name: Hieu M. Nguyen
 markdown: redcarpet
 pygments: true
+paginate: 5 # number of posts per page
