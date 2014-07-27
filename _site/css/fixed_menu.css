@@ -9,19 +9,19 @@
 }
 
 #mainmenu #site-title {
-  font-size: 1.8em;
+  font-size: 2.0em;
   font-weight: bold;
 }
 
 #mainmenu p.baseline {
-  font-size: 1.3em;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  font-size: 1.4em;
+  margin-top: 5px;
+  margin-bottom: 30px;
   color: #666;
 }
 
 #mainmenu a {
-  font-size: 1.3em;
+  font-size: 1.6em;
 }
 
 #mainmenu a:visited {
@@ -29,7 +29,7 @@
 }
 
 #mainmenu a:hover {
-  color: #000;
+  color: #333;
 }
 
 #mainmenu ul {
@@ -37,6 +37,5 @@
 }
 
 #mainmenu ul li {
-  margin-top: 8px;
+  margin-top: 10px;
 }
-
