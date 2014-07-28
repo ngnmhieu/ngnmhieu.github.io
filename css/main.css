@@ -380,6 +380,7 @@ hr.line {
 
 #contact hr {
   width: 70%;
+  margin: 15px 0 15px 0;
 }
 
 #email {
@@ -387,7 +388,7 @@ hr.line {
 }
 
 .address {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #map {
