@@ -12,9 +12,10 @@
   font-size: 1.6em;
   font-weight: bold;
   font-family: utmavo;
+  word-spacing: -2px;
 }
 
-#mainmenu p.baseline {
+#mainmenu p.slogan {
   font-size: 1.2em;
   margin-top: 10px;
   margin-bottom: 20px;

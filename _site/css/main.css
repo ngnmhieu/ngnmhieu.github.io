@@ -229,16 +229,13 @@ a:visited {
 /*
 /*****************************************************************************/
 
-#home  {
+.main-wrapper  {
   padding-top: 10px;
 }
 
-#home h2 {
+.main-wrapper h2 {
   font-size: 1.3em; 
   margin-bottom: 10px;
-}
-
-#blogposts {
 }
 
 
@@ -249,17 +246,37 @@ a:visited {
 /*****************************************************************************/
 
 #about {
+  margin-right: 10px;
   margin-top: 10px;
-  width: 700px;
+  width: 80%;
 }
 
 #profile-pic {
   width: 250px;
   height: 250px;
+  min-width: 250px;
+  min-height: 250px;
   border-radius: 0px;
   margin: 5px 15px 10px 0px;
 }
 
 #about p {
   margin: 0;
+  margin-bottom: 15px;
+}
+
+
+/*****************************************************************************/
+/*
+/* CV
+/*
+/*****************************************************************************/
+#cv {
+  margin-top: 20px;
+}
+.document {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #eee;
+  margin-right: 20px;
 }
