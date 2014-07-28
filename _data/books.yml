@@ -1,9 +1,45 @@
-- title: Ruby on Rails
-  author: Dan
-  year: 2002
-  publisher: Yahoo Press
+- title: Beginning Database Design Solutions 
+  author: Rod Stephens
+  year: 2008
+  publisher: Wrox Press
 
-- title: The C Programming Languages
+- title: Programming PHP, 3rd Edition
+  author: K. Tatroe, P. MacIntyre, R. Lerdorf
+  year: 2013
+  publisher: O'Reilly
+
+- title: Programming Ruby
+  author: Dave Thomas & Andy Hunt
+  year: 2013
+  publisher: Pragmatic Bookshelf 
+
+- title: Programming in C (3rd Edition)
+  author: Stephen G. Kochan
+  year: 2004
+  publisher: Strawberry Canyon LLC 
+
+- title: Engineering Software as a Service
+  author: Amando Fox & David Patterson
+  year: 2014
+  publisher: Strawberry Canyon LLC 
+
+- title: Code Complete (2nd Edition)
+  author: Steve McConnell
+  year: 2004
+  publisher: Microsoft
+
+- title: Algorithms (4th Edition)
+  author: R. Sedgewick & K. Wayne
+  year: 2011
+  publisher: Addison-Wesley Professional
+
+- title: Agile Web Development with Rails 4  
+  author: Sam Ruby
+  year: 2013
+  publisher: Pragmatic Bookshelf
+
+- title: The C Programming Language
   author: K&R
-  year: 1998
+  year: 1978
   publisher: Prentice Hall
+
