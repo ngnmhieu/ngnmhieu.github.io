@@ -9,23 +9,21 @@
 }
 
 #mainmenu #site-title {
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: bold;
+  font-family: utmavo;
 }
 
 #mainmenu p.baseline {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-top: 10px;
   margin-bottom: 20px;
   color: #666;
 }
 
-#mainmenu a {
-  font-size: 1.3em;
-}
-
-#mainmenu a:visited {
-  color: #00a;
+#mainmenu ul li a {
+  font-size: 1.2em;
+  font-family: utmavo;
 }
 
 #mainmenu a:hover {
@@ -37,6 +35,6 @@
 }
 
 #mainmenu ul li {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
