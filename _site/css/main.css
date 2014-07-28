@@ -249,6 +249,10 @@ a:visited {
   color: #D34836;
 }
 
+#social a.xing:hover, #social a.xing:focus {
+  color: #cfdc00;
+}
+
 /*****************************************************************************/
 /*
 /* HomePage
@@ -354,4 +358,41 @@ hr.line {
   font-size: 0.7em;
   display: block;
   color: #777;
+}
+
+
+/*****************************************************************************/
+/*
+/* Contact
+/*
+/*****************************************************************************/
+
+#contact {
+  margin-top: 7px;
+  float: left;
+  width: 300px;
+}
+
+#contact p {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+#contact hr {
+  width: 70%;
+}
+
+.email {
+  color: #37b8eb;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+#map {
+  border: 1px solid #ccc;
+  margin-top: 7px;
+  padding: 5px;
+  padding-bottom: 0px;
 }
