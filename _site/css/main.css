@@ -230,12 +230,15 @@ a:visited {
 /*****************************************************************************/
 
 .main-wrapper  {
-  padding-top: 10px;
+  padding-top: 7px;
 }
 
 .main-wrapper h2 {
   font-size: 1.3em; 
   margin-bottom: 10px;
+}
+
+#blogposts {
 }
 
 
@@ -248,7 +251,7 @@ a:visited {
 #about {
   margin-right: 10px;
   margin-top: 10px;
-  width: 80%;
+  max-width: 700px;
 }
 
 #profile-pic {
@@ -262,21 +265,12 @@ a:visited {
 
 #about p {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
-
 
 /*****************************************************************************/
 /*
 /* CV
 /*
 /*****************************************************************************/
-#cv {
-  margin-top: 20px;
-}
-.document {
-  width: 200px;
-  height: 250px;
-  border: 1px solid #eee;
-  margin-right: 20px;
-}
+

@@ -229,11 +229,11 @@ a:visited {
 /*
 /*****************************************************************************/
 
-#home  {
-  padding-top: 10px;
+.main-wrapper  {
+  padding-top: 7px;
 }
 
-#home h2 {
+.main-wrapper h2 {
   font-size: 1.3em; 
   margin-bottom: 10px;
 }
@@ -251,7 +251,7 @@ a:visited {
 #about {
   margin-right: 10px;
   margin-top: 10px;
-  width: 70%;
+  max-width: 700px;
 }
 
 #profile-pic {
@@ -265,4 +265,12 @@ a:visited {
 
 #about p {
   margin: 0;
+  margin-bottom: 10px;
 }
+
+/*****************************************************************************/
+/*
+/* CV
+/*
+/*****************************************************************************/
+
