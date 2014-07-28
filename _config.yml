@@ -1,7 +1,7 @@
 name: Hieu M. Nguyen
 slogan: I build softwares.
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 paginate: 5 # number of posts per page
 
 
