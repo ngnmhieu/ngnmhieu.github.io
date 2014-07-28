@@ -27,7 +27,7 @@ h2 {
   color: #444;
 }
 
-h1, h2, p, a {
+h1, h2, h3, p, a {
   font-family: utmavo, Helvetica, sans-serif;
 }
 
@@ -151,13 +151,19 @@ a:visited {
 }
 
 .post code {
+  font-size: 1em;
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
+.post pre {
+  margin-bottom: 10px;
+}
+
 .post pre code {
   border: none;
+  font-size: 90%;
 }
 
 /* terminal */
@@ -169,6 +175,26 @@ a:visited {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.post blockquote {
+  font-style: italic;
+  color: #888;
+  margin: 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.post blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.post blockquote p {
+  display: inline;
 }
 
 /* main site */
@@ -273,4 +299,38 @@ a:visited {
 /* CV
 /*
 /*****************************************************************************/
+.document {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ddd;
+  margin: 20px;
+  margin-left: 0;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.document:hover {
+  border: 1px solid #aaa;
+}
+
+hr.line {
+  height: 4px;
+  background-color: #eee;
+}
+
+.line-1 { width: 20%; }
+.line-2 { width: 40%; }
+.line-3 { width: 60%; }
+.line-4 { width: 80%; }
+.line-5 { width: 100%; }
+
+.document a span.clickable {
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 

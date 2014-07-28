@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Blog</title>
+    <title>Javascript: Variable, Scope and Closure</title>
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
@@ -47,44 +47,7 @@
       </div>
 
       <div class="main ">
-        
-<div class="post">
-  <div class="post-header">
-    <h2 class="pull-left"><a href="/linux/2014/04/12/command-line-turn-off-the-screen-linux.html">Command-line turn off the screen in Linux</a></h2>
-    <p class="meta pull-right">12 Apr 2014</p>
-    <div class="clear"></div>
-  </div>
-
-  <hr class="separator">
-  <p>I usually using 2 machines at a time - a desktop and a laptop, keep them side by side with synergy as the &quot;bridge&quot;. My laptop doesn&#39;t have a button for turning off the monitor when I don&#39;t need it. And the command for doing that in linux is so long. Here it is:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">~<span class="nv">$ </span>xset dpms force off</code></pre></div>
-
-<p>I prefer making a shortcut for it so that I could execute it quickly from a app launcher (Alt-F2 in ubuntu). Here&#39;s how I do that:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">~<span class="nv">$ </span><span class="nb">echo</span> <span class="s2">&quot;xset dpms force off&quot;</span> &gt; scroff
-~<span class="nv">$ </span>chmod +x scroff
-~<span class="nv">$ </span>sudo mv scroff /usr/bin</code></pre></div>
-
-<p>The script is named &quot;scroff&quot;,  which you can change to whatever name you want. I want to keep it short-and-simple. It works locally, but for it to work via ssh, you need to export the display first:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">~<span class="nv">$ </span><span class="nb">echo</span> <span class="s2">&quot;export DISPLAY=:0;xset dpms force off&quot;</span> &gt; scroff
-~<span class="nv">$ </span>chmod +x scroff
-~<span class="nv">$ </span>sudo mv scroff /usr/bin</code></pre></div>
-
-<p>Now you can turn the monitor off/on remotely via ssh like so:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">~<span class="nv">$ </span>ssh <span class="o">[</span>user<span class="o">]</span>@<span class="o">[</span>machine_ip<span class="o">]</span> scroff</code></pre></div>
-
-<p>and turn on:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">~<span class="nv">$ </span>ssh <span class="o">[</span>user<span class="o">]</span>@<span class="o">[</span>machine_ip<span class="o">]</span> scron</code></pre></div>
-
-<p>Note that the scron is similar to scroff, just replace all the &quot;off&quot; =&gt; &quot;on&quot;. </p>
-
-</div>
-
-<div class="post">
+        <div class="post">
   <div class="post-header">
     <h2 class="pull-left"><a href="/programming/2014/02/08/javascript-variable-scope-closure.html">Javascript: Variable, Scope and Closure</a></h2>
     <p class="meta pull-right">08 Feb 2014</p>
@@ -194,7 +157,6 @@
 </blockquote>
 
 </div>
-
 
       </div>
     </div>
