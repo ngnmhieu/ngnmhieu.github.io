@@ -334,3 +334,24 @@ hr.line {
   z-index: 1;
 }
 
+
+/*****************************************************************************/
+/*
+/* Reading List
+/*
+/*****************************************************************************/
+#readinglist {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+#readinglist span.gray {
+  color: #777;
+}
+
+.hint {
+  margin-top: 20px;
+  font-size: 0.7em;
+  display: block;
+  color: #777;
+}

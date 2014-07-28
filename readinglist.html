@@ -5,9 +5,18 @@ title: Reading List
 
 <div class="main-wrapper">
   <section class="pull-left">
-    <h2>Reading List</h2>
+    <h2>Reading List*</h2>
   </section>
   <div class="clear"></div>
-  <ul id="readinglist">
-  </ul>
+  
+  <ol id="readinglist">
+    {% for book in site.data.books %}
+      <li>
+        <span class="gray">{{book.author}}</span>. {{book.title}}. <span class="gray">{{book.publisher}}</span>, <span class="gray">{{book.year}}</span>
+      </li>
+    {% endfor %}
+  </ol>
+
+  <small class='hint'>* No specific order</small>
 </div>
+
