@@ -20,6 +20,7 @@
     <!-- Custom fonts -->
     <link rel="stylesheet" href="/css/fonts.css"> 
 
+    <script src="/js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
     <div id="site-wrap" class="">
@@ -59,11 +60,12 @@
   <div class="clear"></div>
   <section id="contact" class="">
      <p class='name'>Hieu M. Nguyen</p>
-     <a class='email' href="mailto:ngnmhieu@gmail.com">ngnmhieu@gmail.com</a>
-     <p class='tel'>01525-467-0981</p>
+     <a id='email'></a>
+     <a id='email_no_js'>ngnmhieu[@]gmail.com</a>
+     <p class='tel'>(+49) 1525-467-0981</p>
      <hr >
      <section class='address'>
-       <p>Kiwittsmoor 40 Zi. 2.5a</p>
+       <p>Kiwittsmoor 40</p>
        <p>22417 Hamburg</p>
        <p>Germany</p>
      </section>
@@ -74,11 +76,16 @@
     
   </section>
 
+  <script type="text/javascript">
+    var username = 'ngnmhieu',
+        domain = 'gmail.com';
+    $("#email_no_js").css('display', 'none');
+    $("#email").attr('href', "mailto:"+username+"@"+domain).text(username+"@"+domain);
+  </script>
 </div>
 
       </div>
     </div>
 
-    <script src="/js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
