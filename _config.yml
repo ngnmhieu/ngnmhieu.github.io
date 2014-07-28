@@ -3,4 +3,11 @@ markdown: redcarpet
 pygments: true
 paginate: 5 # number of posts per page
 
+# social networks link
+github: https://github.com/ngnmhieu
+twitter: http://twitter.com/ngnmhieu
+googleplus: https://plus.google.com/+HieuNguyenMinh0101
+linkedin: http://linkedin.com/in/ngnmhieu
 
+cv_de: /files/cv_hieu_nguyen_de.pdf
+cv_en: /files/cv_hieu_nguyen_en.pdf

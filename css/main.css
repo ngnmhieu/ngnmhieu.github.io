@@ -22,6 +22,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; 
 }
 
+h2 {
+  font-size: 1.4em;
+  color: #444;
+}
+
 h1, h2, p, a {
   font-family: utmavo, Helvetica, sans-serif;
 }
@@ -79,36 +84,9 @@ a:visited {
   margin-left: 250px;
   line-height: 1.5em;
   font-size: 1.1em;
-  padding: 30px;
-  padding-top: 55px;
+  padding: 50px 30px 0px 30px;
 }
 
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: #000;
-}
 /*****************************************************************************/
 /*
 /* Posts
@@ -116,14 +94,56 @@ a:visited {
 /*****************************************************************************/
 
 /* standard */
+.post-header {
+  display: table;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+}
+
+  .post-header h2 { 
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+
+
+  .post .meta {
+    color: #444;
+    margin: 0;
+  }
+
+  .post-header h2 a {
+    color: #444;
+    text-decoration: none;
+  }
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-.post a {
-  text-decoration: underline;
+.post {
+  margin-bottom: 80px;
+}
+
+  .post a {
+    color: #37b8eb;
+    text-decoration: underline;
+  }
+
+  .post a:hover {
+    color: #000;
+  }
+
+
+.post .separator {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .post ul, .post ol {
@@ -191,15 +211,55 @@ a:visited {
   color: #333;
 }
 
-#social a.facebook:hover {
-  color: #3b5998;
+#social a.linkedin:hover, #social a.linkedin:focus {
+  color: #4875B4;
 }
 
-#social a.twitter:hover {
+#social a.twitter:hover, #social a.twitter:focus {
   color: #4099FF;
 }
 
-#social a.google:hover {
+#social a.google:hover, #social a.google:focus {
   color: #D34836;
 }
 
+/*****************************************************************************/
+/*
+/* HomePage
+/*
+/*****************************************************************************/
+
+#home  {
+  padding-top: 10px;
+}
+
+#home h2 {
+  font-size: 1.3em; 
+  margin-bottom: 10px;
+}
+
+#blogposts {
+}
+
+
+/*****************************************************************************/
+/*
+/* About
+/*
+/*****************************************************************************/
+
+#about {
+  margin-top: 10px;
+  width: 700px;
+}
+
+#profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 0px;
+  margin: 5px 15px 10px 0px;
+}
+
+#about p {
+  margin: 0;
+}
