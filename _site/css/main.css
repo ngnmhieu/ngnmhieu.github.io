@@ -424,3 +424,20 @@ hr.line {
   padding: 5px;
   padding-bottom: 0px;
 }
+
+/*****************************************************************************/
+/*
+/* 404 Page
+/*
+/*****************************************************************************/
+
+#page404 p {
+  line-height: 1em;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#page404 a {
+    color: #37b8eb;
+    border-bottom: 1px dotted #37b8eb;
+}
