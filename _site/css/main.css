@@ -27,7 +27,8 @@ h2 {
   color: #444;
 }
 
-h1, h2, h3, p, a ,li{
+h1, h2, h3, p, a, li {
+  /* font-family: utmavo, Helvetica, sans-serif; */
   font-family: utmavo, Helvetica, sans-serif;
 }
 
@@ -117,15 +118,13 @@ a:visited {
     text-decoration: none;
   }
 
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
 .post {
   margin-bottom: 80px;
 }
+
+  .post p {
+    font-family: opensans, Helvetica, sans-serif;
+  }
 
   .post a {
     color: #37b8eb;
@@ -150,16 +149,21 @@ a:visited {
   margin-left: 1.35em;
 }
 
-.post code {
-  font-size: 1em;
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
+  .post pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+    margin-bottom: 10px;
+  }
 
-.post pre {
-  margin-bottom: 10px;
-}
+
+  .post code {
+    font-size: 1em;
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .2em;
+  }
+
 
 .post pre code {
   border: none;
@@ -229,12 +233,20 @@ a:visited {
 }
 
 #social a {
-  color: #333;
+  color: #444;
   margin-left: 5px;
+  -webkit-transition: color 0.1s ease-out;
+  -moz-transition: color 0.1s ease-out;
+  -o-transition: color 0.1s ease-out;
+  transition: color 0.1s ease-out;
 }
 
 #social a:visited {
-  color: #333;
+  color: #444;
+}
+
+#social a.github:hover, #social a.github:focus {
+  color: #000;
 }
 
 #social a.linkedin:hover, #social a.linkedin:focus {
@@ -268,7 +280,13 @@ a:visited {
   margin-bottom: 10px;
 }
 
+#welcome a {
+  color: #37b8eb;
+  text-decoration: underline;
+}
+
 #blogposts {
+  margin-top: 30px;
 }
 
 
@@ -347,6 +365,10 @@ hr.line {
 #readinglist {
   margin-left: 25px;
   margin-top: 10px;
+}
+
+#readinglist li {
+  margin-bottom: 5px;
 }
 
 #readinglist span.gray {

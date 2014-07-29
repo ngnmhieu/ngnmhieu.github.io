@@ -21,3 +21,15 @@
   font-family: 'museo100';
   src: url(/css/types/museo/museo100.otf);
 }
+
+@font-face
+{
+  font-family: 'opensans';
+  src: url(/css/types/open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face
+{
+  font-family: 'opensansbold';
+  src: url(/css/types/open-sans/OpenSans-Bold.ttf);
+}
