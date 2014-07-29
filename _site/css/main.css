@@ -290,6 +290,10 @@ a:visited {
   margin-top: 30px;
 }
 
+#badges h2 {
+  margin-bottom: 20px;
+}
+
 #badges a {
   margin-right: 30px;
 }
