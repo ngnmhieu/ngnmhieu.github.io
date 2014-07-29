@@ -206,6 +206,7 @@ a:visited {
 
 #site-wrap {
   position: relative;
+  padding-bottom: 20px;
 }
 
 .border {
@@ -296,7 +297,8 @@ a:visited {
 
 #badges img {
   height: 60px;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 
@@ -428,6 +430,85 @@ hr.line {
   margin-top: 7px;
   padding: 5px;
   padding-bottom: 0px;
+}
+
+/*****************************************************************************/
+/*
+/* Works
+/*
+/*****************************************************************************/
+
+#works p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#works .project {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#works .project-title {
+  margin-bottom: 15px;
+}
+
+#works .project-desc {
+  color: #777;
+}
+
+#works .urls {
+  /* text-align: center; */
+}
+
+#works .urls a {
+  color: #37b8eb;
+  border-bottom: 1px dotted #37b8eb;
+}
+
+#works .urls span.url {
+  margin-right: 20px;
+}
+
+#works .img-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow-x: auto;
+  height: 220px;
+}
+
+#works .img-container li {
+  display: inline-block;
+  margin-right: 10px;
+  right: 50%;
+}
+
+#works .project-img {
+  max-height: 200px;
+}
+
+#works h3 {
+  position: relative;
+  text-align: center;
+  font-size: 1.3em;
+  z-index: 2;
+}
+
+.line-through {
+  background: #fff;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+#works h3:after{
+    content:"";
+    position:absolute;
+    top:60%;
+    left:0;
+    right:0;
+    border-top: solid 1px #ccc;
+    z-index:-1;
 }
 
 /*****************************************************************************/
