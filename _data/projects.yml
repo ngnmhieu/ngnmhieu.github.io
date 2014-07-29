@@ -3,7 +3,7 @@
   images: 
     - longpolling1.png
     - longpolling2.png
-  source_url: https://github.com/ngnmhieu/fblike_longpolling
+  project_url: https://github.com/ngnmhieu/fblike_longpolling
   link: http://longpolling.ngnmhieu.com
 
 - title: Glassware & Porcelain Store
@@ -11,5 +11,5 @@
   images: 
     - haidat1.png
     - haidat2.png
-  source_url: https://github.com/ngnmhieu/hai-dat-store
+  project_url: https://github.com/ngnmhieu/hai-dat-store
   link: http://haidat.ngnmhieu.com
