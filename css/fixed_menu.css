@@ -1,9 +1,3 @@
-.menu_positioner {
-  border: 1px solid green;
-  width: 250px;
-  height: 100%;
-}
-
 #mainmenu {
   position: fixed;
   width: 250px;
@@ -12,6 +6,11 @@
   height: 100%;
   padding: 50px 20px 0 0;
   z-index: 1;
+
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
 }
 
 #mainmenu #site-title {
