@@ -1,0 +1,21 @@
+- name: Mac OS X Mavericks
+  image: osx.png
+  link:
+- name: Linux
+  image: linux.png
+  link: 
+- name: Jekyll
+  image: jekyll.png
+  link:
+- name: Vim Editor
+  image: vim_editor.gif
+  link: 
+- name: Github
+  image: github.png
+  link:
+- name: Stackoverflow
+  image: stackoverflow.png
+  link:
+- name: Amazon Web Services
+  image: aws.png
+  link:

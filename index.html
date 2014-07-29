@@ -5,12 +5,12 @@ title: Hieu M. Nguyen
 
 <div class="main-wrapper">
   <section id="welcome">
-    <h2>Welcome!</h2>  
-    <p>Hi there! Great to have you here. My name is Hieu, I'm a software developer and this is my personal website. You can find information <a href="/about.html">about me</a>, <a href="/works.html">projects</a> I'm working on, <a href="/readinglist.html">books</a> I'm reading, my <a href="/cv.html">CVs</a>, and how to <a href="/contact.html">contact me</a>. I occasionally write <a href="/blog.html">blog</a>, mostly about programming and softwares. Take a look and tell me what you think! Should you have any feedback or question, please drop me a line either via <a href="/contact.html">email or social networks</a>.</p>
+    <h2 class="section-title">Welcome!</h2>  
+    <p>Hi there! Great to have you here. My name is Hieu, I'm a software developer and this is my personal website. You can find information <a href="/about.html">about me</a>, <a href="/works.html">projects</a> I'm working on, <a href="/readinglist.html">books</a> I'm reading, my <a href="/cv.html">CVs</a>, and how to <a href="/contact.html">contact me</a>. I occasionally write <a href="/blog.html">blog</a>, mostly about programming and software development. Take a look and tell me what you think! Should you have any feedback or question, please drop me a line either via <a href="/contact.html">email or social networks</a>.</p>
   </section>
 
   <section id="blogposts">
-    <h2>Blog Posts</h2>
+    <h2 class="section-title">Blog Posts</h2>
 
     <ul class="posts">
       {% for post in site.posts %}
@@ -20,14 +20,13 @@ title: Hieu M. Nguyen
   </section>
 
   <section id="badges">
-    <h2>Tools, Platforms, Services that I use everyday</h2>  
+    <h2 class="section-title">Tools, platforms, services that I use everyday</h2>  
 
-    <a href="http://www.vim.org/">
-      <img src="/images/vim_editor.gif" alt="I'm an advocate Vim user" title="I'm an advocate Vim user">
-    </a> 
-    <a id='stackoverflow' href="http://stackoverflow.com/users/1087430/hieu-m-nguyen">
-      <img src="http://stackoverflow.com/users/flair/1087430.png" width="208" height="58" alt="profile for Hieu M. Nguyen at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Hieu M. Nguyen at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-    </a> 
+    {% for tool in site.data.tools %}
+    <a href="{{tool.link}}#">
+      <img src="/images/{{tool.image}}" alt="{{tool.name}}">
+    </a>
+    {% endfor %}
   </section>
 
 </div>
