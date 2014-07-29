@@ -1,3 +1,9 @@
+.menu_positioner {
+  border: 1px solid green;
+  width: 250px;
+  height: 100%;
+}
+
 #mainmenu {
   position: fixed;
   width: 250px;
