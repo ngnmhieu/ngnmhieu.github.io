@@ -1,15 +1,20 @@
 - title: Longpolling App
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+  description: "Implement simple long-polling mechanism (inspired by facebook notification system) that simulate server-push. Users will receive \"notification\" when an event happens without having to reload the browser."
   images: 
     - longpolling1.png
     - longpolling2.png
   project_url: https://github.com/ngnmhieu/fblike_longpolling
   link: http://longpolling.ngnmhieu.com
+  languages: 
+    - PHP
 
 - title: Glassware & Porcelain Store
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+  description: "Website for my parent's glassware and porcelain store. It supports multilanguage (currently available: English, German, Vietnamese)."
   images: 
     - haidat1.png
     - haidat2.png
   project_url: https://github.com/ngnmhieu/hai-dat-store
   link: http://haidat.ngnmhieu.com
+  languages: 
+    - Ruby
+    - Ruby on Rails

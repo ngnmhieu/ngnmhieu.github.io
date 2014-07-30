@@ -473,7 +473,7 @@ hr.line {
   margin-bottom: 15px;
 }
 
-#works .project-desc {
+#works .project-desc, #works .project-languages {
   color: #777;
 }
 
@@ -507,6 +507,10 @@ hr.line {
 
 #works .project-img {
   max-height: 200px;
+}
+
+#works .project-img:hover {
+  border: 1px solid #bbb;
 }
 
 #works h3 {
