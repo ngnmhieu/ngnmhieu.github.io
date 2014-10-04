@@ -1,3 +1,12 @@
+- title: Mark Zero Framework
+  description: For learning purposes I decided to build my own PHP Web Application Framework. The project is inspired by many of the big and matured frameworks like CakePHP or Ruby on Rails. Besides being able applying techniques and knowledges that I learned from books into building it, I learned so much more about software architecture and software construction.
+  images:
+    - mark-zero.png
+    - mvc.jpg
+  project_url: https://github.com/ngnmhieu/Mark-Zero-Framework
+  languages:
+    - PHP
+
 - title: Longpolling App
   description: "Implement simple long-polling mechanism (inspired by facebook notification system) that simulate server-push. Users will receive \"notification\" when an event happens without having to reload the browser."
   images: 

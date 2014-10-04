@@ -20,12 +20,18 @@ title: Works
         </ul>
         <div class="clear"></div>
         <p class="project-desc">{{project.description}}</p>
-        <!-- <p class="project-languages"> -->
-        <!--   Language: {{ project.languages | join: ', ' }} -->
-        <!-- </p> -->
         <div class="urls">
-          <span class="url">[ <a target="_blank" href="{{project.project_url}}">Project Page</a> ]</span>
-          <span class="url">[ <a target="_blank" href="{{project.link}}">Demo</a> ]</span>
+          {% if project.project_url != null and project.project_url != "" %} 
+            <span class="url"> 
+            [ <a target="_blank" href="{{project.project_url}}">Project Page</a> ]
+            </span>
+          {% endif%}
+
+          {% if project.link != null and project.link != "" %} 
+            <span class="url"> 
+              [ <a target="_blank" href="{{project.link}}">Demo</a> ]
+            </span>
+          {% endif%}
         </div>
 
       </div>
