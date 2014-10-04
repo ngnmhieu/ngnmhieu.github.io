@@ -8,14 +8,15 @@ title: Reading List
     <h2 class='section-title'>Reading List*</h2>
 
     <ol>
-      {% for book in site.data.books %}
+      {% assign sorted_book = (site.data.books | sort: 'title' %}
+      {% for book in sorted_book %}
       <li>
       <span class="gray">{{book.author}}</span>. {{book.title}}. <span class="gray">{{book.publisher}}</span>, <span class="gray">{{book.year}}</span>
       </li>
       {% endfor %}
     </ol>
     <p>More to come...</p>
-    <small class='hint'>* Books in different ranges of topics and there is no specific ordering.</small>
+    <small class='hint'>* The books listed here cover a variety of topics and are sorted by title.</small>
   </section>
   <div class="clear"></div>
 
