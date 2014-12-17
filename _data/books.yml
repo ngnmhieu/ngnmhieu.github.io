@@ -3,6 +3,16 @@
   year: 2008
   publisher: Wrox Press
 
+- title: Design Patterns (GoF)
+  author: The Gang of Four
+  year: 1994
+  publisher: Addison-Wesley
+
+- title: PHP Objects, Patterns and Practice
+  author: Matt Zandstra 
+  year: 2010
+  publisher: Apress
+
 - title: Programming PHP, 3rd Edition
   author: K. Tatroe, P. MacIntyre, R. Lerdorf
   year: 2013
