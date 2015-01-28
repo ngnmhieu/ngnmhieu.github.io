@@ -1,12 +1,13 @@
 # Bridge - Object Structural 
 
 ## Motivation
-> Decouple an abstraction from its implementation so that the two can *vary independently*.
+> Decouple an abstraction from its implementation so that the two can **vary independently**.
 
 ## Problem
-Example (from GoF): There are different kinds of window (IconWindow, TransientWindow, FloatingWindow,...) and they should be used in different platforms (IBM, X System, Apple,...). What solution would help us achieve this?
+Example (from GoF): There are different kinds of Window (IconWindow, TransientWindow, FloatingWindow,...) and they should be used cross-platform (IBM, X System, Apple,...). What solution would help us achieve this?
+
 The solution should be:
-  - As simple as possible (as few classes as possible ?).
+  - As simple as possible (adequate number of classes).
   - The client should know little/nothing about the mechanism (ideally only 1 class)
   - The client code should be reuseable across different platforms.
 
