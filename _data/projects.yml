@@ -1,9 +1,9 @@
 - title: Mark Zero Framework
-  description: For learning purposes I decided to build my own PHP Web Application Framework. The project is inspired by many of the big and matured frameworks like CakePHP or Ruby on Rails. Besides being able to apply the techniques and knowledges acquired from books into practice, I've learned so much more about software architecture and software construction.
+  description: For learning purposes I decided to build my own PHP Web Application Framework. The project is inspired by many of the big and matured frameworks like Symfony or Ruby on Rails. Besides being able to apply the techniques and knowledges acquired from books into practice, I've learned so much more about software architecture and software construction.
   images:
     - mark-zero.png
     - mvc.jpg
-  project_url: https://github.com/ngnmhieu/Mark-Zero-Framework
+  project_url: https://github.com/ngnmhieu/Markzero-Framework 
   languages:
     - PHP
 
@@ -13,7 +13,6 @@
     - longpolling1.png
     - longpolling2.png
   project_url: https://github.com/ngnmhieu/fblike_longpolling
-  link: http://longpolling.ngnmhieu.com
   languages: 
     - PHP
 
@@ -23,7 +22,6 @@
     - haidat1.png
     - haidat2.png
   project_url: https://github.com/ngnmhieu/hai-dat-store
-  link: http://haidat.ngnmhieu.com
   languages: 
     - Ruby
     - Ruby on Rails
