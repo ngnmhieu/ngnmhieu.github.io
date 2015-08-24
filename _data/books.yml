@@ -8,6 +8,21 @@
   year: 1994
   publisher: Addison-Wesley
 
+- title: Kopf Schl&auml;gt Kapial
+  author: G&uuml;nter Faltin
+  year: 2008 
+  publisher: Hanser
+
+- title: RESTful Web APIs
+  author: Leonard Richardson 
+  year: 2013 
+  publisher: O'Reilly
+
+- title: Hackers & Painters
+  author: Paul Graham
+  year: 2004 
+  publisher: O'Reilly
+
 - title: PHP Objects, Patterns and Practice
   author: Matt Zandstra 
   year: 2010
