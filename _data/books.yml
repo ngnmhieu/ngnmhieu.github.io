@@ -18,6 +18,11 @@
   year: 2013 
   publisher: O'Reilly
 
+- title: Program Development in Java
+  author: Liskov, Guttag
+  year: 2000
+  publisher: Addison Wesley
+
 - title: Hackers & Painters
   author: Paul Graham
   year: 2004 
@@ -57,11 +62,6 @@
   author: R. Sedgewick & K. Wayne
   year: 2011
   publisher: Addison-Wesley Professional
-
-- title: Agile Web Development with Rails 4  
-  author: Sam Ruby
-  year: 2013
-  publisher: Pragmatic Bookshelf
 
 - title: The C Programming Language
   author: K&R
