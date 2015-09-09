@@ -1,3 +1,11 @@
+- title: CV Builder
+  description: "CV Builder helps users creating and customizing their CVs by filling out information and choosing their favorite design. The app is written in Ruby on Rails. Some of the features are: auto-saving, HTML/PDF generation, OAuth, ..."
+  images: 
+    - cvbuilder1.png
+    - cvbuilder2.png
+    - cvbuilder3.png
+  project_url: "https://github.com/ngnmhieu/CV-Builder"
+
 - title: Mark Zero Framework
   description: For learning purposes I decided to build my own PHP Web Application Framework. The project is inspired by many of the big and matured frameworks like Symfony or Ruby on Rails. Besides being able to apply the techniques and knowledges acquired from books into practice, I've learned so much more about software architecture and software construction.
   images:
@@ -6,6 +14,15 @@
   project_url: https://github.com/ngnmhieu/Markzero-Framework 
   languages:
     - PHP
+
+- title: ABC Music Player
+  description: "ABC Music Player is a Java programm that reads and parses files written in ABC-Notation and plays the notes accordingly. This project can handle a subset of ABC-Notation."
+  images:
+    - abcmusic1.png
+    - abcmusic2.png
+  project_url: "https://github.com/Die2Brueder/ABC-Music-Player"
+  languages:
+    - Java
 
 - title: Longpolling App
   description: "Implement simple long-polling mechanism (inspired by facebook notification system) that simulate server-push. Users will receive \"notification\" when an event happens without having to reload the browser."
