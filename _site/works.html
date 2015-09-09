@@ -72,7 +72,10 @@
 </div>
 
       <div class="main ">
-        <div class="main-wrapper">
+        <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<div class="main-wrapper">
   <section id="works">
     <h2 class="section-title">Works</h2>
     <p>Below are the projects that I work on in my free time. Suggestions and questions are welcome, don't hesitate to <a class="highlight" href="/contact.html">contact me</a>.</p>
@@ -84,11 +87,23 @@
 
         <ul class="img-container">
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/cvbuilder1.png" alt="CV Builder" /></li>
+          <li>
+          <a href="/images/projects/cvbuilder1.png" class="fancybox" rel="CV Builder">
+            <img class="project-img img-thumbnail" src="/images/projects/cvbuilder1.png" alt="CV Builder" />
+          </a>
+          </li>
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/cvbuilder2.png" alt="CV Builder" /></li>
+          <li>
+          <a href="/images/projects/cvbuilder2.png" class="fancybox" rel="CV Builder">
+            <img class="project-img img-thumbnail" src="/images/projects/cvbuilder2.png" alt="CV Builder" />
+          </a>
+          </li>
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/cvbuilder3.png" alt="CV Builder" /></li>
+          <li>
+          <a href="/images/projects/cvbuilder3.png" class="fancybox" rel="CV Builder">
+            <img class="project-img img-thumbnail" src="/images/projects/cvbuilder3.png" alt="CV Builder" />
+          </a>
+          </li>
           
         </ul>
         <div class="clear"></div>
@@ -110,9 +125,17 @@
 
         <ul class="img-container">
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/mark-zero.png" alt="Mark Zero Framework" /></li>
+          <li>
+          <a href="/images/projects/mark-zero.png" class="fancybox" rel="Mark Zero Framework">
+            <img class="project-img img-thumbnail" src="/images/projects/mark-zero.png" alt="Mark Zero Framework" />
+          </a>
+          </li>
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/mvc.jpg" alt="Mark Zero Framework" /></li>
+          <li>
+          <a href="/images/projects/mvc.jpg" class="fancybox" rel="Mark Zero Framework">
+            <img class="project-img img-thumbnail" src="/images/projects/mvc.jpg" alt="Mark Zero Framework" />
+          </a>
+          </li>
           
         </ul>
         <div class="clear"></div>
@@ -134,9 +157,17 @@
 
         <ul class="img-container">
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/abcmusic1.png" alt="ABC Music Player" /></li>
+          <li>
+          <a href="/images/projects/abcmusic1.png" class="fancybox" rel="ABC Music Player">
+            <img class="project-img img-thumbnail" src="/images/projects/abcmusic1.png" alt="ABC Music Player" />
+          </a>
+          </li>
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/abcmusic2.png" alt="ABC Music Player" /></li>
+          <li>
+          <a href="/images/projects/abcmusic2.png" class="fancybox" rel="ABC Music Player">
+            <img class="project-img img-thumbnail" src="/images/projects/abcmusic2.png" alt="ABC Music Player" />
+          </a>
+          </li>
           
         </ul>
         <div class="clear"></div>
@@ -158,9 +189,17 @@
 
         <ul class="img-container">
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/longpolling1.png" alt="Longpolling App" /></li>
+          <li>
+          <a href="/images/projects/longpolling1.png" class="fancybox" rel="Longpolling App">
+            <img class="project-img img-thumbnail" src="/images/projects/longpolling1.png" alt="Longpolling App" />
+          </a>
+          </li>
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/longpolling2.png" alt="Longpolling App" /></li>
+          <li>
+          <a href="/images/projects/longpolling2.png" class="fancybox" rel="Longpolling App">
+            <img class="project-img img-thumbnail" src="/images/projects/longpolling2.png" alt="Longpolling App" />
+          </a>
+          </li>
           
         </ul>
         <div class="clear"></div>
@@ -182,9 +221,17 @@
 
         <ul class="img-container">
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/haidat1.png" alt="Glassware & Porcelain Store" /></li>
+          <li>
+          <a href="/images/projects/haidat1.png" class="fancybox" rel="Glassware & Porcelain Store">
+            <img class="project-img img-thumbnail" src="/images/projects/haidat1.png" alt="Glassware & Porcelain Store" />
+          </a>
+          </li>
           
-          <li><img class="project-img img-thumbnail" src="/images/projects/haidat2.png" alt="Glassware & Porcelain Store" /></li>
+          <li>
+          <a href="/images/projects/haidat2.png" class="fancybox" rel="Glassware & Porcelain Store">
+            <img class="project-img img-thumbnail" src="/images/projects/haidat2.png" alt="Glassware & Porcelain Store" />
+          </a>
+          </li>
           
         </ul>
         <div class="clear"></div>
@@ -205,6 +252,15 @@
   </section>
   <div class="clear"></div>
 </div>
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    $(".fancybox").fancybox({
+      openEffect	: 'none',
+      closeEffect	: 'none'
+    });
+  });
+</script>
 
       </div>
     </div>
