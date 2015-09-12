@@ -1,3 +1,13 @@
+- title: Accelerated C++
+  author: Andrew Koenig
+  year: 2000
+  publisher: Addison-Wesley
+
+- title: Effective C++
+  author: Scott Meyers
+  year: 1992
+  publisher: Addison-Wesley
+
 - title: Beginning Database Design Solutions 
   author: Rod Stephens
   year: 2008
@@ -21,7 +31,7 @@
 - title: Program Development in Java
   author: B. Liskov & J. Guttag
   year: 2000
-  publisher: Addison Wesley
+  publisher: Addison-Wesley
 
 - title: Hackers & Painters
   author: Paul Graham
@@ -61,7 +71,7 @@
 - title: Algorithms (4th Edition)
   author: R. Sedgewick & K. Wayne
   year: 2011
-  publisher: Addison-Wesley Professional
+  publisher: Addison-Wesley
 
 - title: The C Programming Language
   author: K&R
