@@ -28,9 +28,16 @@ title: Contact
   </section>
 
   <script type="text/javascript">
-    var username = 'ngnmhieu',
-        domain = 'gmail.com';
+
+    var email    = $("#email_no_js").html().split("[@]"),
+        username = email[0],
+        domain   = email[1];
+
     $("#email_no_js").css('display', 'none');
-    $("#email").attr('href', "mailto:"+username+"@"+domain).text(username+"@"+domain);
+
+    email = username+"@"+domain;
+
+    $("#email").attr('href', "mailto:" + email).text(email);
+
   </script>
 </div>
