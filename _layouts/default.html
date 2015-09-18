@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta property="og:image" content="http://nguyen.hieu.co/images/logo.jpg" />
+    <!-- open graph -->
+    <meta property="og:image" content="http://nguyen.hieu.co/images/profile-gray.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
     <title>{{ page.title }}</title>
+
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-touch-icon-114x114.png">
