@@ -7,7 +7,7 @@
   project_url: "https://github.com/ngnmhieu/CV-Builder"
 
 - title: Mark Zero Framework
-  description: For learning purposes I decided to build my own PHP Web Application Framework. The project is inspired by many of the big and matured frameworks like Symfony or Ruby on Rails. Besides being able to apply the techniques and knowledges acquired from books into practice, I've learned so much more about software architecture and software construction.
+  description: Markzero is a web framework that helps developer build web apps fast and properly. The project is inspired by the big and matured frameworks like Symfony and Ruby on Rails. Some of it's features are: Routing (URI-matching mechanism is extensible), free choice of project structure, response to multiple MIME-type, Validation, pluggable view rendering engine...
   images:
     - mark-zero.png
     - mvc.jpg
