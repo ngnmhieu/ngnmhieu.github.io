@@ -1,0 +1,45 @@
+---
+layout: default
+title: Ideas
+---
+
+<div class="main-wrapper">
+  <section id="ideas" class="pull-left">
+    <h2 class='section-title'>{{ page.title }}</h2>
+    <p>Ideas are worth sharing (even the most stupid one). I list here some ideas that come to my mind during daily activities, be it eating, running, working, showering, ... or even sleeping. Just send me an email if you either want to discuss about them, or even better, collaborate with me to make them come true!</p>
+
+    <dl class="ideas-list">
+      {% for idea in site.data.ideas %}
+      <dt class="idea-title collapsed" data-collapsed=true>{{ idea.title }}</li>
+      <dd class="idea-desc">{{ idea.desc }}</dd>
+      {% endfor %}
+    </dl>
+
+  </section>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    jQuery(function($) {
+
+        $(".idea-title").on('click', function(e) {
+
+            var _this = $(this);
+
+            if (_this.data('collapsed') == true) {
+                $('#ideas dt').removeClass('uncollapsed').addClass('collapsed');
+                $('#ideas dt').data('collapsed', true);
+                $('#ideas dd').hide();
+
+                _this.removeClass("collapsed").addClass("uncollapsed");
+                _this.data('collapsed', false);
+                _this.next('dd').show();
+            } else {
+                _this.removeClass("uncollapsed").addClass("collapsed");
+                _this.data('collapsed', true);
+                $('#ideas dd').hide();
+            }
+
+        });
+    });
+</script>
+

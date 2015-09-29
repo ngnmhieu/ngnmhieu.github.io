@@ -27,7 +27,7 @@ h2 {
   color: #444;
 }
 
-h1, h2, h3, p, a, li {
+h1, h2, h3, p, a, li, dl {
   font-family: utmavo, Helvetica, sans-serif;
 }
 
@@ -289,6 +289,10 @@ a:visited {
   margin-top: 30px;
 }
 
+#badges .section-title {
+    margin-top: 30px;
+}
+
 #badges h2 {
   margin-bottom: 20px;
 }
@@ -426,6 +430,7 @@ hr.line {
 
 #contact {
   width: 300px;
+  margin-top: 30px;
 }
 
 #contact p {
@@ -534,6 +539,47 @@ hr.line {
     right:0;
     border-top: solid 1px #ccc;
     z-index:-1;
+}
+
+/*****************************************************************************/
+/*
+/* Ideas
+/*
+/*****************************************************************************/
+
+#ideas {
+    margin-bottom: 50px;
+}
+
+#ideas p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#ideas dl dt {
+    cursor: pointer;
+}
+
+#ideas dl dt:not(:first-child) {
+    margin-top: 20px;
+}
+
+#ideas dl dt.collapsed:before {
+    content: "\25B8 \a0";
+    color: #444;
+}
+
+#ideas dl dt.uncollapsed:before {
+    content: "\25BE \a0";
+    color: #444;
+}
+
+#ideas dl dd {
+    margin-left: 16px;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #777;
+    display: none;
 }
 
 /*****************************************************************************/
