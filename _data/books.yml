@@ -1,17 +1,27 @@
-- title: Accelerated C++
-  author: Andrew Koenig
-  year: 2000
-  publisher: Addison-Wesley
+# - title: Accelerated C++
+#   author: Andrew Koenig
+#   year: 2000
+#   publisher: Addison-Wesley
 
-- title: Effective C++
-  author: Scott Meyers
-  year: 1992
-  publisher: Addison-Wesley
+# - title: Effective C++
+#   author: Scott Meyers
+#   year: 1992
+#   publisher: Addison-Wesley
 
 - title: Beginning Database Design Solutions 
   author: Rod Stephens
   year: 2008
   publisher: Wrox Press
+
+- title: Test-Driven Development By Example
+  author: Kent Beck
+  year: 2002
+  publisher: Addison-Wesley
+
+- title: The Lean Startup
+  author: Eric Ries
+  year: 2011
+  publisher: Crown Business
 
 - title: Design Patterns (GoF)
   author: The Gang of Four
