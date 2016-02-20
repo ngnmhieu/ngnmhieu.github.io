@@ -1,5 +1,14 @@
 #mainmenu {
-  position: fixed;
+  /**
+   * Fixed menu
+   * position: fixed; 
+   */
+
+  /**
+   * Float Menu
+   */
+  float: left;
+
   width: 250px;
   left: 0;
   text-align: right;

@@ -184,7 +184,10 @@ a:visited {
 /* main site */
 
 #site-wrap {
+  margin: auto;
+  box-sizing: border-box;
   position: relative;
+  width: 1024px;
   padding-bottom: 20px;
 }
 
@@ -312,7 +315,6 @@ a:visited {
 
 #about {
   margin-right: 10px;
-  max-width: 750px;
 }
 
 #profile-pic-container {
@@ -497,8 +499,7 @@ hr.line {
 
 #works .img-container {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 5px;
+  margin: 20px 10px 5px 10px;
   white-space: nowrap;
   overflow-x: auto;
   height: 220px;
