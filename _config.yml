@@ -1,6 +1,6 @@
 name: Hieu M. Nguyen
 slogan: I build softwares.
-highlighter: pygments
+highlighter: rouge 
 paginate: 5 # number of posts per page
 url: http://nguyen.hieu.co
 
