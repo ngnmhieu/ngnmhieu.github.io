@@ -3,11 +3,11 @@ layout: default
 title: Hieu M. Nguyen
 ---
 
-<div class="main-wrapper">
-  <section id="welcome">
-    <h2 class="section-title">Welcome!</h2>  
-    <p>Hi! Great to have you here. My name is Hieu, I'm a software developer and this is my personal website. You can find information <a href="/about.html">about me</a>, <a href="/works.html">projects</a> I'm working on, my <a href="/cv.html">r&eacute;sum&eacute;</a> and <a href="/readinglist.html">books</a> I'm reading. Should you have any feedback or questions, please drop me a line either via email or social networks.</p>
-  </section>
+<!-- <div class="main&#45;wrapper"> -->
+<!--   <section id="welcome"> -->
+<!--     <h2 class="section&#45;title">Welcome!</h2>   -->
+<!--     <p>Hi! Great to have you here. My name is Hieu, I'm a software developer and this is my personal website. You can find information <a href="/about.html">about me</a>, <a href="/works.html">projects</a> I'm working on, my <a href="/cv.html">r&#38;eacute;sum&#38;eacute;</a> and <a href="/readinglist.html">books</a> I'm reading. Should you have any feedback or questions, please drop me a line either via email or social networks.</p> -->
+<!--   </section> -->
 
   <!-- <section id="blogposts"> -->
   <!--   <h2 class="section&#45;title">Blog Posts</h2> -->
@@ -19,40 +19,40 @@ title: Hieu M. Nguyen
   <!--   </ul> -->
   <!-- </section> -->
 
-  <section id="badges">
-    <h2 class="section-title">Tools, platforms, services that I use everyday</h2>  
-
-    {% for tool in site.data.tools %}
-    <a href="{{tool.link}}#">
-      <img src="/images/{{tool.image}}" alt="{{tool.name}}">
-    </a>
-    {% endfor %}
-  </section>
-
-  <section id="contact" >
-    <h2 class="section-title">Contact</h2>
-
-    <section class="">
-       <p class='name'>Hieu M. Nguyen</p>
-       <a id='email'></a>
-       <a id='email_no_js'>ngnmhieu[@]gmail.com</a>
-       <p class='tel'>(+49) 1525-467-0981</p>
-    </section>   
-
-  </section>
-
-</div>
-
-<script type="text/javascript">
-
-var email    = $("#email_no_js").html().split("[@]"),
-    username = email[0],
-    domain   = email[1];
-
-$("#email_no_js").css('display', 'none');
-
-email = username+"@"+domain;
-
-$("#email").attr('href', "mailto:" + email).text(email);
-
-</script>
+<!--   <section id="badges"> -->
+<!--     <h2 class="section&#45;title">Tools, platforms, services that I use everyday</h2>   -->
+<!--  -->
+<!--     {% for tool in site.data.tools %} -->
+<!--     <a href="{{tool.link}}#"> -->
+<!--       <img src="/images/{{tool.image}}" alt="{{tool.name}}"> -->
+<!--     </a> -->
+<!--     {% endfor %} -->
+<!--   </section> -->
+<!--  -->
+<!--   <section id="contact" > -->
+<!--     <h2 class="section&#45;title">Contact</h2> -->
+<!--  -->
+<!--     <section class=""> -->
+<!--        <p class='name'>Hieu M. Nguyen</p> -->
+<!--        <a id='email'></a> -->
+<!--        <a id='email_no_js'>ngnmhieu[@]gmail.com</a> -->
+<!--        <p class='tel'>(+49) 1525&#45;467&#45;0981</p> -->
+<!--     </section>    -->
+<!--  -->
+<!--   </section> -->
+<!--  -->
+<!-- </div> -->
+<!--  -->
+<!-- <script type="text/javascript"> -->
+<!--  -->
+<!-- var email    = $("#email_no_js").html().split("[@]"), -->
+<!--     username = email[0], -->
+<!--     domain   = email[1]; -->
+<!--  -->
+<!-- $("#email_no_js").css('display', 'none'); -->
+<!--  -->
+<!-- email = username+"@"+domain; -->
+<!--  -->
+<!-- $("#email").attr('href', "mailto:" + email).text(email); -->
+<!--  -->
+<!-- </script> -->

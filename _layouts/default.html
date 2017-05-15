@@ -49,6 +49,13 @@
     <script src="/js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
+
+  <center style="margin-top: 50px">
+    Under construction. See you in a near future :-)
+  </center>
+
+  {% comment %}
+
     <div id="site-wrap" class="">
       {% include mainmenu.html %}
       <div class="main ">
@@ -60,12 +67,14 @@
     {% include google_analytics.html %}
 
     <!-- fix mainmenu zoom problem on phones -->
-    <!-- <script type="text/javascript" charset="utf&#45;8"> -->
-    <!--   $(document).scroll(function(e) { -->
-    <!--       $('#mainmenu').css({ -->
-    <!--           'left': &#45; $(document).scrollLeft() -->
-    <!--           }); -->
-    <!--       }); -->
-    <!-- </script> -->
+    <script type="text/javascript" charset="utf-8">
+      $(document).scroll(function(e) {
+          $('#mainmenu').css({
+              'left': - $(document).scrollLeft()
+              });
+          });
+    </script>
+
+    {% endcomment %}
   </body>
 </html>
