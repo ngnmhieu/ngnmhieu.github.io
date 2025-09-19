@@ -1,58 +1,168 @@
----
-layout: default
-title: Hieu M. Nguyen
----
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hieu Nguyen – Softwarelösungen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./assets/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="flex w-full justify-center bg-gray-100 px-6 py-8">
+      <div class="page-width">
+        <div class="text-center text-4xl font-bold md:text-left">
+          Hieu Nguyen
+        </div>
+      </div>
+    </header>
 
-<!-- <div class="main&#45;wrapper"> -->
-<!--   <section id="welcome"> -->
-<!--     <h2 class="section&#45;title">Welcome!</h2>   -->
-<!--     <p>Hi! Great to have you here. My name is Hieu, I'm a software developer and this is my personal website. You can find information <a href="/about.html">about me</a>, <a href="/works.html">projects</a> I'm working on, my <a href="/cv.html">r&#38;eacute;sum&#38;eacute;</a> and <a href="/readinglist.html">books</a> I'm reading. Should you have any feedback or questions, please drop me a line either via email or social networks.</p> -->
-<!--   </section> -->
+    <section class="flex w-full justify-center bg-gray-100 px-6 pb-8">
+      <div
+        class="page-width grid w-full justify-center gap-x-10 gap-y-10 md:grid-cols-5"
+      >
+        <div class="order-2 md:order-1 md:col-span-3 md:pt-6">
+          <h2 class="mb-4 ml-[-1px]">Moin, ich bin Hieu.</h2>
+          <h4 class="mb-4">
+            Ich entwickle Softwarelösungen, die einfach funktionieren.
+          </h4>
+          <p>
+            Mit meiner mehrjährigen Erfahrung in der Full-Stack-Entwicklung
+            unterstütze ich Unternehmen aus verschiedenen Branchen dabei,
+            innovative Softwarelösungen zu entwickeln und Geschäftsprozesse
+            effizient zu gestalten.
+          </p>
+        </div>
+        <div
+          class="order-1 flex items-center justify-center pt-0 md:order-2 md:col-span-2"
+        >
+          <img
+            src="./assets/img/profile.jpg"
+            alt="Hieu Nguyen"
+            class="max-w-90 rounded-full object-cover sm:w-full"
+          />
+        </div>
+      </div>
+    </section>
 
-  <!-- <section id="blogposts"> -->
-  <!--   <h2 class="section&#45;title">Blog Posts</h2> -->
-  <!--  -->
-  <!--   <ul class="posts"> -->
-  <!--     {% for post in site.posts %} -->
-  <!--     <li><span>{{ post.date | date_to_string }}</span> &#38;raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
-  <!--     {% endfor %} -->
-  <!--   </ul> -->
-  <!-- </section> -->
+    <section id="services" class="flex w-full justify-center px-6 py-8 pt-12">
+      <div class="page-width w-full">
+        <h2 class="mb-8 ml-[-1px]">Dienstleistung</h2>
+        <p>
+          Meine Leistungen umfasst die Entwicklung von Webanwendungen, die
+          Optimierung von DevOps-Prozessen, die Implementierung von
+          Cloud-Lösungen sowie die Integration von Systemen und APIs. Durch
+          meine Expertise in diesen Bereichen schaffe ich gemeinsam mit meinen
+          Kunden skalierbare und effiziente digitale Lösungen.
+        </p>
+      </div>
+    </section>
 
-<!--   <section id="badges"> -->
-<!--     <h2 class="section&#45;title">Tools, platforms, services that I use everyday</h2>   -->
-<!--  -->
-<!--     {% for tool in site.data.tools %} -->
-<!--     <a href="{{tool.link}}#"> -->
-<!--       <img src="/images/{{tool.image}}" alt="{{tool.name}}"> -->
-<!--     </a> -->
-<!--     {% endfor %} -->
-<!--   </section> -->
-<!--  -->
-<!--   <section id="contact" > -->
-<!--     <h2 class="section&#45;title">Contact</h2> -->
-<!--  -->
-<!--     <section class=""> -->
-<!--        <p class='name'>Hieu M. Nguyen</p> -->
-<!--        <a id='email'></a> -->
-<!--        <a id='email_no_js'>ngnmhieu[@]gmail.com</a> -->
-<!--        <p class='tel'>(+49) 1525&#45;467&#45;0981</p> -->
-<!--     </section>    -->
-<!--  -->
-<!--   </section> -->
-<!--  -->
-<!-- </div> -->
-<!--  -->
-<!-- <script type="text/javascript"> -->
-<!--  -->
-<!-- var email    = $("#email_no_js").html().split("[@]"), -->
-<!--     username = email[0], -->
-<!--     domain   = email[1]; -->
-<!--  -->
-<!-- $("#email_no_js").css('display', 'none'); -->
-<!--  -->
-<!-- email = username+"@"+domain; -->
-<!--  -->
-<!-- $("#email").attr('href', "mailto:" + email).text(email); -->
-<!--  -->
-<!-- </script> -->
+    <section id="testimonials" class="flex w-full justify-center px-6 py-8">
+      <div class="page-width w-full">
+        <h2 class="mb-8 ml-[-1px]">Das sagen meine Kunden</h2>
+        <div class="grid gap-x-20 gap-y-10 md:grid-cols-2">
+          <blockquote class="italic">
+            „For more than 1 year, Hieu supported us to develop a customer
+            portal and I especially liked his always positive, pro-active,
+            problem solving spirit.“
+            <footer class="mt-4 font-semibold">
+              – Stefan Broeckx (Marquard & Bahls)
+            </footer>
+          </blockquote>
+          <blockquote class="italic">
+            „Wir haben sehr gerne mit Herrn Nguyen zusammengearbeitet. Er war
+            stets zuverlässig, engagiert, kompetent und sehr hilfsbereit. Immer
+            wieder gerne.“
+            <footer class="mt-4 font-semibold">
+              – Jan Brüggemann (Hapag-Lloyd)
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class=" px-6 py-16 md:px-20">
+      <h2 class="mb-8 text-center text-3xl font-bold">Kontakt</h2>
+      <p class="mb-8 text-center text-lg text-gray-700">
+        Bei Anfragen oder offenen Fragen schick mir gerne eine E-Mail an
+        <a href="mailto:contact@hieu.digital" class="text-blue-600"
+          >contact@hieu.digital</a
+        >
+        oder nutze das Kontaktformular.
+      </p>
+      <form class="mx-auto max-w-2xl space-y-6">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div>
+            <label class="mb-1 block text-sm font-medium">Vorname</label>
+            <input
+              type="text"
+              class="w-full rounded-md border border-gray-300 p-2"
+              placeholder="Vorname"
+            />
+          </div>
+          <div>
+            <label class="mb-1 block text-sm font-medium">Nachname</label>
+            <input
+              type="text"
+              class="w-full rounded-md border border-gray-300 p-2"
+              placeholder="Nachname"
+            />
+          </div>
+        </div>
+        <div>
+          <label class="mb-1 block text-sm font-medium">E-Mail *</label>
+          <input
+            type="email"
+            required
+            class="w-full rounded-md border border-gray-300 p-2"
+            placeholder="deine@email.de"
+          />
+        </div>
+        <div>
+          <label class="mb-1 block text-sm font-medium">Telefon</label>
+          <input
+            type="text"
+            class="w-full rounded-md border border-gray-300 p-2"
+            placeholder="Telefonnummer"
+          />
+        </div>
+        <div>
+          <label class="mb-1 block text-sm font-medium">Nachricht *</label>
+          <textarea
+            required
+            class="h-32 w-full rounded-md border border-gray-300 p-2"
+            placeholder="Deine Nachricht..."
+          ></textarea>
+        </div>
+        <div class="text-center">
+          <button
+            type="submit"
+            class="rounded-md bg-blue-600 px-6 py-3 text-white hover:bg-blue-700"
+          >
+            Absenden
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex w-full justify-center px-6 py-8 bg-gray-100 text-sm">
+      <div class="page-width w-full flex justify-between">
+        <div class="space-x-4 grid md:grid-cols-2 gap-y-3">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </div>
+        <div>
+          <a href="mailto:contact@hieu.digital">contact@hieu.digital</a>
+          <div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
