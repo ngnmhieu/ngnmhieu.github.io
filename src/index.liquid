@@ -3,8 +3,7 @@ layout: main.liquid
 title: Startseite | Hieu Nguyen
 ---
 <section class="flex w-full justify-center bg-gray-100 px-6 pb-8">
-  <div
-    class="page-width grid w-full justify-center gap-x-10 gap-y-10 md:grid-cols-5"
+  <div class="page-width grid w-full justify-center gap-x-10 gap-y-10 md:grid-cols-5"
   >
     <div class="order-2 md:order-1 md:col-span-3 md:pt-6">
       <h2 class="mb-4 ml-[-1px]">Moin, ich bin Hieu.</h2>
@@ -70,7 +69,7 @@ title: Startseite | Hieu Nguyen
   </div>
 </section>
 
-<section id="kontakt" class="flex w-full justify-center px-6 py-8">
+<section id="kontakt" class="flex w-full justify-center px-6 py-8 pb-15">
   <div class="page-width w-full">
     <h2 class="mb-8 ml-[-1px]">Kontakt</h2>
     <div class="grid gap-x-20 gap-y-10 md:grid-cols-2">
@@ -82,59 +81,7 @@ title: Startseite | Hieu Nguyen
         oder nutze das Kontaktformular.
       </p>
 
-      <form class="max-w-2xl space-y-6">
-        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div>
-            <label class="mb-1 block text-sm font-medium">Vorname</label>
-            <input
-              type="text"
-              class="w-full rounded-md border border-gray-300 p-2"
-              placeholder="Vorname"
-            />
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium">Nachname</label>
-            <input
-              type="text"
-              class="w-full rounded-md border border-gray-300 p-2"
-              placeholder="Nachname"
-            />
-          </div>
-        </div>
-        <div>
-          <label class="mb-1 block text-sm font-medium">E-Mail *</label>
-          <input
-            type="email"
-            required
-            class="w-full rounded-md border border-gray-300 p-2"
-            placeholder="deine@email.de"
-          />
-        </div>
-        <div>
-          <label class="mb-1 block text-sm font-medium">Telefon</label>
-          <input
-            type="text"
-            class="w-full rounded-md border border-gray-300 p-2"
-            placeholder="Telefonnummer"
-          />
-        </div>
-        <div>
-          <label class="mb-1 block text-sm font-medium">Nachricht *</label>
-          <textarea
-            required
-            class="h-32 w-full rounded-md border border-gray-300 p-2"
-            placeholder="Deine Nachricht..."
-          ></textarea>
-        </div>
-        <div class="text-center">
-          <button
-            type="submit"
-            class="rounded-md bg-blue-600 px-6 py-3 text-white hover:bg-blue-700"
-          >
-            Senden
-          </button>
-        </div>
-      </form>
+      {% include 'components/contact-form' %}
     </div>
   </div>
 </section>
