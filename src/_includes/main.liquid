@@ -13,8 +13,12 @@
     <link href="/assets/output.css" rel="stylesheet" />
   </head>
   <body>
-  {% include 'components/header' %}
-    {{ content }}
-  {% include 'components/footer' %}
+    <div class="min-h-screen flex flex-col">
+      {% include 'components/header' %}
+      <div class="flex-1">
+        {{ content }}
+      </div>
+      {% include 'components/footer' %}
+    </div>
   </body>
 </html>

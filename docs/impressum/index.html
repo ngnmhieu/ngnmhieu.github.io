@@ -13,7 +13,8 @@
     <link href="/assets/output.css" rel="stylesheet" />
   </head>
   <body>
-  <header class="flex w-full justify-center bg-gray-100 px-6 py-8">
+    <div class="min-h-screen flex flex-col">
+      <header class="flex w-full justify-center bg-gray-100 px-6 py-8">
   <div class="page-width">
     <a href="/" class="text-center text-4xl font-bold md:text-left !no-underline">
       Hieu Nguyen
@@ -21,11 +22,44 @@
   </div>
 </header>
 
-    <section>
-  Impressum
+      <div class="flex-1">
+        <section id="impressum" class="flex w-full justify-center px-6 py-8 pt-12">
+  <div class="page-width w-full">
+    <h2 class="mb-8 ml-[-1px]">Impressum</h2>
+
+Angaben gemäß § 55 DDG:
+
+Hieu Nguyen
+Poßmoorweg 17
+22301 Hamburg
+Deutschland
+
+Kontaktdaten
+
+E-Mail: contact@hieu.digital
+Telefon: +49 40 334647099
+
+Angaben zur Berufshaftpflichtversicherung
+
+Name und Sitz des Versicherers:
+andsafe AG
+Provinzial-Allee 1
+48159 Münster
+
+Geltungsraum der Versicherung:
+Deutschland
+
+Haftungsausschluss:
+Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Beiträge Dritter geben die Meinung des jeweiligen Autors wieder und stellen nicht immer die Meinung des Anbieters dar.
+
+Urheberrecht:
+Die durch den Betreiber dieser Seite veröffentlichten Inhalte und Werke sind urheberrechtlich geschützt. Eine Vervielfältigung, Bearbeitung oder sonstige Verwendung der Inhalte sind ohne schriftliche Zustimmung des Betreibers nicht gestattet.
+
+  </div>
 </section>
 
-  <footer class="flex w-full justify-center bg-gray-100 px-6 py-8 text-sm">
+      </div>
+      <footer class="flex w-full justify-center bg-gray-100 px-6 py-8 text-sm">
   <div class="page-width flex w-full justify-between">
     <div class="grid space-x-4 gap-y-3 md:grid-cols-2">
       <a href="/impressum">Impressum</a>
@@ -38,5 +72,6 @@
   </div>
 </footer>
 
+    </div>
   </body>
 </html>

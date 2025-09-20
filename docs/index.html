@@ -13,7 +13,8 @@
     <link href="/assets/output.css" rel="stylesheet" />
   </head>
   <body>
-  <header class="flex w-full justify-center bg-gray-100 px-6 py-8">
+    <div class="min-h-screen flex flex-col">
+      <header class="flex w-full justify-center bg-gray-100 px-6 py-8">
   <div class="page-width">
     <a href="/" class="text-center text-4xl font-bold md:text-left !no-underline">
       Hieu Nguyen
@@ -21,7 +22,8 @@
   </div>
 </header>
 
-    <section class="flex w-full justify-center bg-gray-100 px-6 pb-8">
+      <div class="flex-1">
+        <section class="flex w-full justify-center bg-gray-100 px-6 pb-8">
   <div
     class="page-width grid w-full justify-center gap-x-10 gap-y-10 md:grid-cols-5"
   >
@@ -155,7 +157,8 @@
   </div>
 </section>
 
-  <footer class="flex w-full justify-center bg-gray-100 px-6 py-8 text-sm">
+      </div>
+      <footer class="flex w-full justify-center bg-gray-100 px-6 py-8 text-sm">
   <div class="page-width flex w-full justify-between">
     <div class="grid space-x-4 gap-y-3 md:grid-cols-2">
       <a href="/impressum">Impressum</a>
@@ -168,5 +171,6 @@
   </div>
 </footer>
 
+    </div>
   </body>
 </html>

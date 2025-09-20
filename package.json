@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "dev": "concurrently \"serve\" \"npx @tailwindcss/cli -i ./src/assets/input.css -o ./src/assets/output.css --watch\"",
     "compile": "eleventy --formats=liquid",
     "serve": "eleventy --formats=liquid --serve --port=8080",
     "clean": "rm -rf _site"
@@ -10,7 +9,6 @@
     "@tailwindcss/cli": "^4.1.13",
     "@tailwindcss/postcss": "^4.1.13",
     "chokidar": "^4.0.3",
-    "concurrently": "^9.2.1",
     "cssnano": "^7.1.1",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.13"
