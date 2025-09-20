@@ -13,28 +13,8 @@
     <link href="/assets/output.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="flex w-full justify-center bg-gray-100 px-6 py-8">
-      <div class="page-width">
-        <a href="/" class="text-center text-4xl font-bold md:text-left !no-underline">
-          Hieu Nguyen
-        </a>
-      </div>
-    </header>
-
+  {% include 'components/header' %}
     {{ content }}
-
-    <!-- Footer -->
-    <footer class="flex w-full justify-center bg-gray-100 px-6 py-8 text-sm">
-      <div class="page-width flex w-full justify-between">
-        <div class="grid space-x-4 gap-y-3 md:grid-cols-2">
-          <a href="/impressum">Impressum</a>
-          <a href="/datenschutz">Datenschutz</a>
-        </div>
-        <div>
-          <a href="mailto:contact@hieu.digital">contact@hieu.digital</a>
-          <div></div>
-        </div>
-      </div>
-    </footer>
+  {% include 'components/footer' %}
   </body>
 </html>
