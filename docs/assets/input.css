@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Comfortaa", sans-serif;
+  color: var(--color-gray-800);
+}
+
+.page-width {
+  width: 80rem; 
+}
+
+h1 {
+  @apply font-bold;
+  @apply text-4xl/10;
+  @apply md:text-5xl/12;
+}
+
+h2 {
+  @apply font-bold;
+  @apply text-3xl/8;
+  @apply md:text-4xl/10;
+}
+
+h4 {
+  @apply font-bold;
+  @apply text-xl/8;
+  @apply md:text-2xl/8;
+}
+
+p {
+  @apply text-lg/7;
+  @apply md:text-xl/8;
+}
+
+blockquote {
+  @apply text-lg/7;
+  @apply md:text-xl/8;
+}
+
+a {
+  @apply hover:underline;
+}

@@ -5,7 +5,7 @@ import postcss from 'postcss';
 import tailwindcss from '@tailwindcss/postcss';
 
 const SOURCE_DIR = 'src';
-const OUTPUT_DIR = '_site';
+const OUTPUT_DIR = 'docs';
 
 export default function (eleventyConfig) {
 
@@ -40,8 +40,8 @@ export default function (eleventyConfig) {
 
   return {
     dir: {
-      input: 'src',
-      output: '_site'
+      input: SOURCE_DIR,
+      output: OUTPUT_DIR
     }
   };
 };
