@@ -27,14 +27,19 @@ export default function (eleventyConfig) {
   });
 
   const processor = postcss([
-    //compile tailwind
+    // compile tailwind
     tailwindcss(),
 
-    //minify tailwind css
+    // minify tailwind css
     cssnano({
       preset: 'default',
     }),
   ]);
+
+  eleventyConfig.addShortcode("inlineSvg", function(file) {
+    const filePath = path.join("src/assets/svg", file);
+    return fs.readFileSync(filePath, "utf8");
+  });
 
   eleventyConfig.addPassthroughCopy("src/assets");
 
