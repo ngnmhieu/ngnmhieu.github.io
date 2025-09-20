@@ -43,3 +43,7 @@ blockquote {
 a {
   @apply hover:underline;
 }
+
+#impressum p {
+  @apply text-base/7;
+}
