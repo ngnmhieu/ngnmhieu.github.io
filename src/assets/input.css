@@ -42,11 +42,13 @@ p {
 blockquote {
   @apply text-lg/7;
   @apply md:text-xl/8;
+  @apply text-gray-800;
   @apply dark:text-gray-200;
 }
 
 a {
   @apply hover:underline;
+  @apply text-gray-800;
   @apply dark:text-gray-200;
 }
 
@@ -57,5 +59,6 @@ label {
 
 #impressum p {
   @apply text-base/7;
+  @apply text-gray-800;
   @apply dark:text-gray-200;
 }
