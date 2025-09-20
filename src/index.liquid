@@ -1,0 +1,137 @@
+---
+layout: main.liquid
+title: Startseite | Hieu Nguyen
+---
+<section class="flex w-full justify-center bg-gray-100 px-6 pb-8">
+  <div
+    class="page-width grid w-full justify-center gap-x-10 gap-y-10 md:grid-cols-5"
+  >
+    <div class="order-2 md:order-1 md:col-span-3 md:pt-6">
+      <h2 class="mb-4 ml-[-1px]">Moin, ich bin Hieu.</h2>
+      <h4 class="mb-4">
+        Ich entwickle Softwarelösungen, die einfach funktionieren.
+      </h4>
+      <p>
+        Mit meiner mehrjährigen Erfahrung in der Full-Stack-Entwicklung
+        unterstütze ich Unternehmen aus verschiedenen Branchen dabei,
+        innovative Softwarelösungen zu entwickeln und Geschäftsprozesse
+        effizient zu gestalten.
+      </p>
+    </div>
+    <div
+      class="order-1 flex items-center justify-center pt-0 md:order-2 md:col-span-2"
+    >
+      <img
+        src="/assets/img/profile.jpg"
+        alt="Hieu Nguyen"
+        class="max-w-90 rounded-full object-cover sm:w-full"
+      />
+    </div>
+  </div>
+</section>
+
+<section id="services" class="flex w-full justify-center px-6 py-8 pt-12">
+  <div class="page-width w-full">
+    <h2 class="mb-8 ml-[-1px]">Dienstleistung</h2>
+    <p>
+      Meine Leistungen umfasst die Entwicklung von Webanwendungen, die
+      Optimierung von DevOps-Prozessen, die Implementierung von
+      Cloud-Lösungen sowie die Integration von Systemen und APIs. Durch
+      meine Expertise in diesen Bereichen schaffe ich gemeinsam mit meinen
+      Kunden skalierbare und effiziente digitale Lösungen.
+    </p>
+  </div>
+</section>
+
+<section id="testimonials" class="flex w-full justify-center px-6 py-8">
+  <div class="page-width w-full">
+    <h2 class="mb-8 ml-[-1px]">Das sagen meine Kunden</h2>
+    <div class="grid gap-x-20 gap-y-10 md:grid-cols-2">
+      <blockquote class="italic">
+        „For more than 1 year, Hieu supported us to develop a customer
+        portal and I especially liked his always positive, pro-active,
+        problem solving spirit.“
+        <footer class="mt-4 font-semibold">
+          – Stefan Broeckx (Marquard & Bahls)
+        </footer>
+      </blockquote>
+      <blockquote class="italic">
+        „Wir haben sehr gerne mit Herrn Nguyen zusammengearbeitet. Er war
+        stets zuverlässig, engagiert, kompetent und sehr hilfsbereit. Immer
+        wieder gerne.“
+        <footer class="mt-4 font-semibold">
+          – Jan Brüggemann (Hapag-Lloyd)
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt" class="flex w-full justify-center px-6 py-8">
+  <div class="page-width w-full">
+    <h2 class="mb-8 ml-[-1px]">Kontakt</h2>
+    <div class="grid gap-x-20 gap-y-10 md:grid-cols-2">
+      <p>
+        Bei Anfragen oder offenen Fragen schick mir gerne eine E-Mail an
+        <a href="mailto:contact@hieu.digital" class="text-blue-600"
+          >contact@hieu.digital</a
+        >
+        oder nutze das Kontaktformular.
+      </p>
+
+      <form class="max-w-2xl space-y-6">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div>
+            <label class="mb-1 block text-sm font-medium">Vorname</label>
+            <input
+              type="text"
+              class="w-full rounded-md border border-gray-300 p-2"
+              placeholder="Vorname"
+            />
+          </div>
+          <div>
+            <label class="mb-1 block text-sm font-medium">Nachname</label>
+            <input
+              type="text"
+              class="w-full rounded-md border border-gray-300 p-2"
+              placeholder="Nachname"
+            />
+          </div>
+        </div>
+        <div>
+          <label class="mb-1 block text-sm font-medium">E-Mail *</label>
+          <input
+            type="email"
+            required
+            class="w-full rounded-md border border-gray-300 p-2"
+            placeholder="deine@email.de"
+          />
+        </div>
+        <div>
+          <label class="mb-1 block text-sm font-medium">Telefon</label>
+          <input
+            type="text"
+            class="w-full rounded-md border border-gray-300 p-2"
+            placeholder="Telefonnummer"
+          />
+        </div>
+        <div>
+          <label class="mb-1 block text-sm font-medium">Nachricht *</label>
+          <textarea
+            required
+            class="h-32 w-full rounded-md border border-gray-300 p-2"
+            placeholder="Deine Nachricht..."
+          ></textarea>
+        </div>
+        <div class="text-center">
+          <button
+            type="submit"
+            class="rounded-md bg-blue-600 px-6 py-3 text-white hover:bg-blue-700"
+          >
+            Senden
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
