@@ -1,11 +1,18 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Comfortaa";
+  src: url("/assets/fonts/Comfortaa-VariableFont.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
 * {
   font-family: "Comfortaa", sans-serif;
 }
 
 .page-width {
-  width: 80rem; 
+  width: 80rem;
 }
 
 h1 {
