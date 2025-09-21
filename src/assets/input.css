@@ -64,6 +64,11 @@ label {
   @apply dark:text-gray-200;
 }
 
+ul li {
+  @apply text-gray-900;
+  @apply dark:text-gray-200;
+}
+
 #impressum p,
 #datenschutz p
 {
